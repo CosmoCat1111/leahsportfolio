@@ -5,9 +5,13 @@ HTML and Css projects
 Below are some example sites I made while learning HTML and Css and utilizing bootstrap and javascript.
 
 Projects:
+
 -Space Station
+
 -Movie Theater 
+
 and most recently
+
 -leahsportfolio
 
 Space Station:

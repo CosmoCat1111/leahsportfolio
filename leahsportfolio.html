@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Leah Lisberg</title>
+        <link rel="stylesheet" type="text/css" href="./leahsportfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About Me</a>
+            <a href="#GitHub">GitHub Link</a>
+            <a href="#Contact">Contact Me</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/video (1080p).mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Leah's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Together we can create a world of joy and love, together we are strong and powerful.
+                        <br>Care means so many things, I would like to help support you in caring for yourself, others, and your loved ones.
+                        <br>There is so much abundance out there, the broken link is the path to get the right information to you, I hope to help solve some of those issue here by providing a way to direct you to some of the much needed information.
+                    </q>
+                    <br> 
+                    <br>
+                    <br> My name is Leah Lisberg. Welcome to my portfolio website. On it, I will tell you about my background, experience and things that bring me great joy I would like to share with you.
+                    <br>
+                    <br> I hope there is much information to support you here, and that you're able to share with your loved ones as well! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/touch-ga3ecf48d6_1280.jpg" alt="From birth to death, every moment inbetween is valuable.">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About Me</h1>
+                <p>
+                    I am a very new software developer, and am very excited for this new adventure! As a mother of five, including a set of twins, I am severaly passionate about connection.  This gives me extreme motivation to helps others get connected not just with each other but with the world and whatever it is they need to feel better within a positive environment. 
+                    <br>
+                    <br>I will be a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I will be a full-stack developer and would love to work with you on your project, your ideas or even just brainstorm. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub Link</h1>
+                <p>
+                    You can view my school projects, and any future projects here on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/CosmoCat1111" target="_blank">CosmoCat1111</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/woman-g8d7028aed_1280.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact Me</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>

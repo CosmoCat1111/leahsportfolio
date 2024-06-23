@@ -1,24 +1,37 @@
 # leahsportfolio
-Project for my Portfolio
-
-HTML and Css projects
-Below are some example sites I made while learning HTML and Css and utilizing bootstrap and javascript.
+Hello, below I have listed some projects I have done with Academy of Learning Community Collage using C# and .NET framwork. All these projects demonstrate from very basic applications to complex programs, show casing from start to finish the learning of how to build web applications.
 
 Projects:
 
--Space Station
-
--Movie Theater 
-
-and most recently
-
--leahsportfolio
-
-Space Station:
-This project helped me understand how to use CSS within a navbar, images, containers and a form. This is a page for training and not operational.
-
-Movie Theater:
-This project helped me understand how to use Bootstrap and all the stylings it can provide. I really enjoyed learning how to implement the jumbotron, forms, cards and more. This is also a training page and also not operational.
+WebApplication - Leah 
+CarInsurance
+FinalAssignment
+NewsletterAppMVC
+MVCTutorial
+TryCatchAssignment
+DateTimeAssignment
+LambaExpressionAssignment
+StructAssignment
+ParsingEnumAssignmment
+OperatorsAssignment
+PolymorphismAssignment
+AbstractClassAssignment
+MathMethodsAssignment
+MethodClassAssignment
+MethodAssignment
+MainMethodAssignment
+CallingMethodAssignment
+ConsoleAppStringsAndIntegersAssignment
+ConsoleAppAssignmentsProject
+ConsoleAppArrayAssignment
+BranchingAssignment
+Leahs-HTML-and-CSS-Projects
+ConsoleAppAssignment
+BoolenLogicAssignment
+MathandComparisonOperatorAssignment
+ConsoleAppAssignmentLeah
+AOLCC-Student-Reports
+AcmeAccounting
 
 leahsportfolio:
-This is my latest project file and I hope to use it live in the future, if not this exact one, it will mirror alot of it, and so I will be paying special attention to all the details.
+These is my latest projects with Academy of Learning Community Collage, which have been essential in my learning and I hope will explode my career in this sector.
